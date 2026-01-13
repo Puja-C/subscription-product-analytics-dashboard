@@ -34,10 +34,8 @@ The dataset used is **synthetic** (created for portfolio purposes) and includes:
 ## Repo contents
 - `assets/` - dashboard screenshots and optional PDF export
 - `data/` - synthetic dataset used for analysis
-- `pbix/` - Power BI report file (if included)
 - `measures.md` - key DAX measures used in the report
 
-## Screenshots
 ### Executive Overview
 ![Executive Overview](assets/01-executive-overview.png)
 
