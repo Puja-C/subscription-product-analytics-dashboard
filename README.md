@@ -10,10 +10,10 @@ It focuses on business and product questions such as churn, retention, cohort be
 - What user behaviours are associated with retention vs churn?
 
 ## Pages (high level)
-1. **Executive Overview** – Active subscribers, churn rate, MRR trend  
-2. **Retention & Churn Analysis** – Churn breakdown by plan, device, and country  
-3. **Retention & Cohort Analysis** – Retention by signup month and retention rate  
-4. **Feature Usage & Retention Drivers** – Behavioural patterns (events) for active vs churned users + geographic view
+1. **Executive Overview** - Active subscribers, churn rate, MRR trend  
+2. **Retention & Churn Analysis** - Churn breakdown by plan, device, and country  
+3. **Retention & Cohort Analysis** - Retention by signup month and retention rate  
+4. **Feature Usage & Retention Drivers** - Behavioural patterns (events) for active vs churned users + geographic view
 
 ## Key insights (example)
 - Churn is highest on the **Basic** plan, suggesting lower perceived value versus Standard/Premium.
@@ -32,10 +32,10 @@ The dataset used is **synthetic** (created for portfolio purposes) and includes:
 - SQL concepts for data validation and metric logic
 
 ## Repo contents
-- `assets/` – dashboard screenshots and optional PDF export
-- `data/` – synthetic dataset used for analysis
-- `pbix/` – Power BI report file (if included)
-- `measures.md` – key DAX measures used in the report
+- `assets/` - dashboard screenshots and optional PDF export
+- `data/` - synthetic dataset used for analysis
+- `pbix/` - Power BI report file (if included)
+- `measures.md` - key DAX measures used in the report
 
 ## Screenshots
 ### Executive Overview
