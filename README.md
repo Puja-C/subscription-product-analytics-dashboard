@@ -1,40 +1,51 @@
-# Subscription Product Analytics Dashboard (Power BI)
+# Subscription Analytics Project (Power BI)
 
-This project is a portfolio dashboard that analyses subscription performance for a digital product.  
-It focuses on business and product questions such as churn, retention, cohort behaviour, and feature usage patterns.
+This project analyses subscription performance for a digital product using structured datasets to answer key business questions around churn, retention, and user behaviour.
 
-## What this dashboard answers
-- How are subscribers and revenue trending over time?
-- Which segments (plan, device, country) churn the most?
-- How does retention vary by signup cohort?
-- What user behaviours are associated with retention vs churn?
+The focus of this project is data modelling, KPI definition, and analytical reasoning rather than visual design.
 
-## Pages (high level)
-1. **Executive Overview** - Active subscribers, churn rate, MRR trend  
-2. **Retention & Churn Analysis** - Churn breakdown by plan, device, and country  
-3. **Retention & Cohort Analysis** - Retention by signup month and retention rate  
-4. **Feature Usage & Retention Drivers** - Behavioural patterns (events) for active vs churned users + geographic view
+## Analytical Objectives
 
-## Key insights (example)
-- Churn is highest on the **Basic** plan, suggesting lower perceived value versus Standard/Premium.
-- **Mobile** users show higher churn than web users, indicating potential UX or performance issues.
-- Retained users engage more with high-intent actions such as **save_item**, while churned users show higher **cancel** activity.
+- Define churn, retention rate, and MRR using consistent metric logic
+- Analyse subscriber and revenue trends over time
+- Evaluate retention by signup cohort
+- Identify behavioural patterns associated with churn vs retention
+- Segment churn risk by plan, device, and geography
 
-## Data
-The dataset used is **synthetic** (created for portfolio purposes) and includes:
-- `subscription_users.csv` (user attributes: signup date, country, device, plan)
-- `subscriptions.csv` (subscription status, start/end dates, monthly price)
-- `subscription_events.csv` (user behaviour events such as login, browse, save_item, cancel)
+## Data Modelling Approach
 
-## Tools
-- Power BI Desktop (data modelling, DAX measures, visual design)
-- DAX (KPIs: churn rate, retention rate, MRR)
-- SQL concepts for data validation and metric logic
+- Built a relational data model across user, subscription, and event datasets
+- Created calculated DAX measures for churn rate, retention rate, and MRR
+- Structured analysis to correlate behavioural events with subscription outcomes
+- Validated metric logic through controlled filtering and cohort testing
 
-## Repo contents
-- `assets/` - dashboard screenshots and optional PDF export
-- `data/` - synthetic dataset used for analysis
-- `measures.md` - key DAX measures used in the report
+## Key Insights
+
+- Churn is highest on the **Basic** plan, suggesting potential pricing or value perception differences versus Standard/Premium tiers.
+- **Mobile users** exhibit higher churn compared to web users, indicating potential UX or performance friction.
+- Retained users demonstrate stronger engagement with high-intent actions such as **save_item**, while churned users show increased **cancel** activity prior to exit.
+
+## Dataset
+
+The dataset used is synthetic (created for portfolio purposes) and includes:
+
+- `subscription_users.csv` — user attributes (signup date, country, device, plan)
+- `subscriptions.csv` — subscription lifecycle data (status, start/end dates, monthly price)
+- `subscription_events.csv` — behavioural event data (login, browse, save_item, cancel)
+
+## Tools & Techniques
+
+- Power BI Desktop (data modelling and analysis)
+- DAX for KPI calculation (churn rate, retention rate, MRR)
+- SQL-based metric logic and validation principles
+
+## Repository Contents
+
+- `assets/` — dashboard screenshots and optional PDF export
+- `data/` — synthetic datasets used for analysis
+- `measures.md` — documentation of key DAX measures
+
+---
 
 ### Executive Overview
 ![Executive Overview](assets/01-executive-overview.png)
