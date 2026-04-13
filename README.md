@@ -1,8 +1,18 @@
 # Subscription Analytics Project (Power BI)
 
-This project analyses subscription performance for a digital product using structured datasets to answer key business questions around churn, retention, and user behaviour.
+## Business Context
 
-The focus of this project is data modelling, KPI definition, and analytical reasoning rather than visual design.
+This project simulates a subscription-based digital product (e.g. streaming or SaaS platform) aiming to improve customer retention and revenue performance.
+
+The business is experiencing rising churn and limited visibility into user behaviour across the subscription lifecycle. Stakeholders require a clear understanding of retention patterns, revenue drivers, and behavioural signals to inform product improvements and pricing strategy.
+
+As part of this analysis, the objective is to define key metrics, structure analytical datasets, and generate actionable insights to support data-driven decision-making.
+
+## Problem Statement
+- Why are users churning?
+- Which customer segments are at highest risk?
+- What behavioural patterns differentiate retained vs churned users?
+- How can retention and revenue (MRR) be improved?
 
 ## Analytical Objectives
 
